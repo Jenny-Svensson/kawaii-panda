@@ -1,0 +1,358 @@
+body {
+    background-color: pink;
+  }
+  
+  .panda-upper-head {
+    margin: 7rem 42.5rem;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: white;
+    width: 9.5rem;
+    height: 5rem;
+    border-radius: 10rem 10rem 0 0;
+    z-index: 1;
+  }
+  
+  .panda-mid-head {
+    margin: 10.5rem 42.1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 10.3rem;
+    height: 5rem;
+    border-radius: 6rem 6rem 4rem 4rem;
+    z-index: 2;
+  
+  }
+  
+  .panda-lower-head {
+    margin: 13rem 42.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 9.5rem;
+    height: 3rem;
+    border-radius: 50%;
+    z-index: 3;
+  
+  }
+  
+  .panda-mouth {
+    margin: 14rem 46.5rem;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #303133;
+    width: 1.7rem;
+    height: 0.8rem;
+    border-radius: 0 0 10rem 10rem;
+      z-index: 5;
+  }
+  
+  .panda-mouth-tongue{
+    margin: 14.49rem 47rem;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: red;
+    width: 0.7rem;
+    height: 0.3rem;
+    border-radius: 10rem 10rem 10rem 10rem;
+      z-index: 5;
+  }
+  
+  .panda-mouthcover {
+    margin: 13.8rem 47.1rem;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #303133;
+    width: 0.5rem;
+    height: 0.3rem;
+    border-radius: 10rem 10rem 0rem 0rem;
+    z-index: 5;
+  }
+  
+  .panda-upperlip {
+    z-index: 5;
+    margin: 11.5rem 46.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3.5rem;
+    transform: rotate(90deg);
+    font-family: calibri;
+    color: #303133;
+  }
+  
+  .panda-ear-left {
+    position: absolute;
+    margin: 7rem 40.9rem;
+    transform: rotate(-50deg);
+    width: 3rem;
+    height: 2rem;
+    border-radius: 10rem 10rem 0 0 ;
+    background-color: #303133; 
+  }
+  
+  .panda-ear-right {
+    position: absolute;
+    margin: 7rem 49.5rem;
+    transform: rotate(50deg);
+    width: 3rem;
+    height: 2rem;
+    border-radius: 10rem 10rem 0 0 ;
+    background-color: #303133; 
+  }
+  
+  .panda-eyepatch-left {
+    margin: 9.5rem 43rem;
+    position: absolute;
+    z-index: 2;
+    background-color: #303133;
+    width: 2.5rem;
+    height: 3rem;
+    transform: rotate(30deg);
+    border-radius: 10rem 10rem 10rem 10rem ;
+  }
+  
+  .panda-eyepatch-right {
+    margin: 9.5rem 48rem;
+    position: absolute;
+    z-index: 2;
+    background-color: #303133;
+    width: 2.5rem;
+    height: 3rem;
+    transform: rotate(-30deg);
+    border-radius: 10rem 10rem 10rem 10rem ;
+  }
+  
+  .panda-eye-left {
+    margin: 10rem 44rem;
+    position: absolute;
+    z-index: 2;
+    background-color: black;
+    width: 1rem;
+    height: 1.2rem;
+    transform: rotate(-10deg);
+    border-radius: 10rem;
+  }
+  
+  .panda-eye-right {
+    margin: 10rem 48.5rem;
+    position: absolute;
+    z-index: 2;
+    background-color: black;
+    width: 1rem;
+    height: 1.2rem;
+    transform: rotate(10deg);
+    border-radius: 10rem;
+  }
+  
+  .panda-eyeiris-left {
+    margin: 10.1rem 44.4rem;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 10rem;
+  }
+  
+  .panda-eyeiris-right {
+    margin: 10.1rem 48.6rem;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 10rem;
+  }
+  
+  .panda-eyegloss-left {
+    margin: 10.7rem 44rem;
+    position: absolute;
+    z-index: 2;
+    background-color: #f1f1f1; /*#303133*/
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 10rem;
+  }
+  
+  .panda-eyegloss-right {
+    margin: 10.7rem 49.2rem;
+    position: absolute;
+    z-index: 2;
+    background-color: #f1f1f1; /*#303133*/
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 10rem;
+  }
+  
+  .panda-nose {
+    margin: 11.5rem 46rem;
+    position: absolute;
+    z-index: 4;
+    background-color: #303133; /*#303133*/
+    width: 1.6rem;
+    height: 1.2rem;
+    border-radius: 1.3rem 1.3rem 3rem 3rem;
+  }
+  
+  .panda-body {
+    margin: 13rem 43.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 7.5rem;
+    height: 9rem;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .panda-black-body {
+    background-color: #303133;
+    width: 8rem;
+    height: 2rem;
+    position:absolute;
+    margin: 15rem 43rem;
+    z-index: 2;
+  }
+  
+  .panda-arm-left{
+    position: absolute;
+    margin: 13rem 40rem;
+    background-color: #303133;
+    transform: rotate(-50deg);
+    width: 3rem;
+    height: 5rem;
+    border-radius: 50%;
+  }
+  
+  .panda-arm-left-1-pawfinger{
+    position: absolute;
+    margin: 14.7rem 39.9rem;
+    background-color: #ef71b3;
+    width: 0.2rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    z-index: 1;
+    transform: rotate(-50deg);
+  }
+  
+  .panda-arm-left-2-pawfinger{
+    position: absolute;
+    margin: 14.2rem 40.1rem;
+    background-color: #ef71b3;
+    width: 0.2rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    z-index: 1;
+    transform: rotate(-40deg);
+  }
+  
+  .panda-arm-left-3-pawfinger{
+    position: absolute;
+    margin: 13.9rem 40.5rem;
+    background-color: #ef71b3;
+    width: 0.2rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    z-index: 1;
+    transform: rotate(-30deg);
+  }
+  
+  .panda-arm-left-bigpaw{
+    position: absolute;
+    margin: 14.5rem 40.6rem;
+    background-color: #ef71b3;
+    width: 0.5rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    z-index: 1;
+    transform: rotate(40deg);
+  }
+  
+  .panda-arm-right {
+    position: absolute;
+    margin: 14.5rem 50rem;
+    background-color: #303133;
+    transform: rotate(-30deg);
+    width: 3rem;
+    height: 5rem;
+    border-radius: 50%;
+  }
+  
+  .panda-leg-left {
+    position: absolute;
+    margin: 18rem 42rem;
+    background-color: #303133;
+    transform: rotate(60deg);
+    width: 3rem;
+    height: 4rem;
+    border-radius: 50%;
+  }
+  
+  .panda-leg-right {
+    position: absolute;
+    margin: 18rem 48.5rem;
+    background-color: #303133;
+    transform: rotate(-60deg);
+    width: 3rem;
+    height: 4rem;
+    border-radius: 50%;
+  }
+  
+  .panda-foot-left {
+    position: absolute;
+    margin: 18.3rem 40.6rem;
+    background-color: #303133;
+    transform: rotate(-30deg);
+    width: 3.2rem;
+    height: 3.7rem;
+    border-radius: 50%;
+  }
+  
+  .panda-white-foot-left {
+    position: absolute;
+    margin: 19rem 41rem;
+    background-color: white;
+    transform: rotate(-30deg);
+    width: 2rem;
+    height: 2.4rem;
+    border-radius: 50%;
+  }
+  
+  .panda-foot-right {
+    position: absolute;
+    margin: 18.3rem 50rem;
+    background-color: #303133;
+    transform: rotate(30deg);
+    width: 3.2rem;
+    height: 3.7rem;
+    border-radius: 50%;
+  }
+  
+  .panda-white-foot-right {
+    position: absolute;
+    margin: 19rem 50.8rem;
+    background-color: white;
+    transform: rotate(30deg);
+    width: 2rem;
+    height: 2.4rem;
+    border-radius: 50%;
+  }
+  
+  
+  .panda-circle-container{
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem 10rem 10rem 10rem;
+    background-color: #CC99A2;
+    margin: 4rem 37rem;
+  }
